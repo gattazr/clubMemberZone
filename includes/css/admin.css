@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+div.row {
+	clear: both;
+	padding-top: 10px;
+}
+
+div.row label{
+	float: left;
+	width: 100px;
+	text-align: right;
+}
+
+div.row .formInput{
+	margin-left : 25px;
+	width: 335px;
+	text-align: left; 
+}
+
+div.rowSubmit{
+	margin-left: 100px;
+}
+
+div.rowSubmit input{
+	margin-left: 25px;
+}
+
+.pagination {
+	margin-top: 10px;
+}
+.pagination a{
+	text-decoration:none;
+}
+.pagination-number{
+	margin-left: 10px;
+	text-decoration:none;
+	font-size : 25px;
+}
+.current{
+	font-weight : bold;
+}
